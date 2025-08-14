@@ -8,7 +8,7 @@ Este documento contiene el procedimiento completo para instalar cada herramienta
 
 | Comando | Reemplaza a | Método de instalación | Compatibilidad WSL |
 |--------|--------------|------------------------|--------------------|
-| `exa`  | `ls`         | APT (`apt install`)    | ✅ Total           |
+| `eza`  | `ls`         | APT (`apt install`)    | ✅ Total           |
 | `bat`  | `cat`        | APT (`apt install`)    | ✅ Total           |
 | `dust` | `du`         | `cargo`                | ✅ Requiere `cargo`|
 | `duf`  | `df`         | APT (`apt install`)    | ✅ Total           |
@@ -18,7 +18,7 @@ Este documento contiene el procedimiento completo para instalar cada herramienta
 ## 🔸 1. Instalar `exa`
 
 ```bash
-sudo apt update && sudo apt install -y exa
+sudo apt update && sudo apt install -y eza
 ```
 
 ### ✔️ Verificación:
