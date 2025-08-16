@@ -60,7 +60,7 @@ bat /etc/fstab
 
 ### 🔍 Ejercicio 2: Ver logs con paginación y resaltado
 ```bash
-bat /var/log/syslog | less
+bat /var/log/syslog 
 ```
 - 🎯 Objetivo: Revisar logs de sistema con enfoque visual
 - 🔁 Comando tradicional: `less /var/log/syslog`
