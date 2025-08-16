@@ -10,11 +10,11 @@ Este documento contiene ejercicios prácticos detallados para cada comando moder
 
 ---
 
-## 🟡 1. EzA – Reemplazo moderno de `ls`
+## 🟡 1. ExA – Reemplazo moderno de `ls`
 
 ### 🧭 Ejercicio 1: Listado detallado con colores y permisos
 ```bash
-eza -la
+exa -la
 ```
 - 🎯 Objetivo: Ver archivos ocultos y permisos con colores intuitivos
 - 🔁 Comando tradicional: `ls -la`
@@ -25,7 +25,7 @@ eza -la
 
 ### 🌳 Ejercicio 2: Mostrar árbol de directorios
 ```bash
-eza -T /etc --level=2
+exa -T /etc --level=2
 ```
 - 🎯 Objetivo: Ver estructura jerárquica de configuración
 - 🔁 Comando tradicional: `ls` + `tree` (si está instalado)
@@ -36,7 +36,7 @@ eza -T /etc --level=2
 
 ### 🕒 Ejercicio 3: Ordenar archivos por fecha de modificación
 ```bash
-eza -l --sort=modified --icons
+exa -l --sort=modified --icons
 ```
 - 🎯 Objetivo: Detectar archivos modificados recientemente
 - 🔁 Comando tradicional: `ls -lt`
